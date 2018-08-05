@@ -11,7 +11,7 @@
   </head>
   <body>
     <?php
-      echo $object->info;
+      echo $object->name();
     ?>
   </body>
 </html>
