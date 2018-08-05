@@ -8,6 +8,5 @@
     public function name() {
       return $this->namePrivate;
     }
-
   }
 ?>
