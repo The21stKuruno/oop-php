@@ -13,12 +13,7 @@
     <?php
       $object = new NewClass;
       $object2 = new NewClass;
-
-      $object->setNewProperty("This is the new data!");
       echo $object->getProperty();
-
-      $object2->setNewProperty("This is the second new data!");
-      echo $object2->getProperty();
     ?>
   </body>
 </html>
