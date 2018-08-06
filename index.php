@@ -12,7 +12,8 @@
   <body>
     <?php
       $object = new NewClass;
-      $object2 = new NewClass;
+      // This is how to delete class
+      unset($object);
       echo $object->getProperty();
     ?>
   </body>
