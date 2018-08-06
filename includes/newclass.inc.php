@@ -2,10 +2,18 @@
   class NewClass {
     // property
     public $data = "I am a property";
+    // display the name of the class
+    public $error = "This is the class called ".__CLASS__."!";
 
     // construct
     public function __construct() {
       echo "This class has been instantiated";
+    }
+
+    // toString Method
+    public function __toString() {
+      echo "toString method: ";
+      return $this->error;
     }
 
     // methods

@@ -12,9 +12,7 @@
   <body>
     <?php
       $object = new NewClass;
-      // This is how to delete class
-      unset($object);
-      echo $object->getProperty();
+      echo $object;
     ?>
   </body>
 </html>
