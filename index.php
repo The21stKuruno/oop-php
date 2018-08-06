@@ -11,8 +11,7 @@
   </head>
   <body>
     <?php
-      $object = new NewClass;
-      echo $object;
+    echo NewClass::staticMethod();
     ?>
   </body>
 </html>
