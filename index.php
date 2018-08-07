@@ -1,6 +1,7 @@
 <?php
   // include_once 'includes/parentclass.inc.php';
-  include_once 'includes/newclass.inc.php';
+  // include_once 'includes/newclass.inc.php';
+  include_once 'includes/usersclass.inc.php';
   // $object = new NewClass;
 ?>
 <!DOCTYPE html>
@@ -11,7 +12,8 @@
   </head>
   <body>
     <?php
-    echo NewClass::staticMethod();
+      $users = new Users('Cris', 'Vergara', 'Black', 'Black');
+      echo $users->fullName();
     ?>
   </body>
 </html>
